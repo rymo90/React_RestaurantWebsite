@@ -1,0 +1,31 @@
+.Header {
+    display: flex;
+    background-color: aqua;
+    height: 95px;
+    
+}
+.left {
+    flex: 50%;
+    text-align: left;
+}
+.right {
+    flex: 50%;
+    text-align: center;
+    
+}
+.right > ul {
+    display: flex;
+    align-items: stretch;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+}
+.right > li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    background: #fafafa;
+}
