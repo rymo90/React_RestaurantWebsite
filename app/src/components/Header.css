@@ -1,31 +1,23 @@
-.Header {
-    display: flex;
-    background-color: aqua;
-    height: 95px;
-    
-}
-.left {
-    flex: 50%;
-    text-align: left;
-}
-.right {
-    flex: 50%;
-    text-align: center;
-    
-}
-.right > ul {
-    display: flex;
-    align-items: stretch;
+ul {
     list-style-type: none;
-    justify-content: space-between;
-    width: 100%;
-    
     margin: 0;
     padding: 0;
-}
-.right > li {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
     display: block;
-    flex: 0 1 auto; /* Default */
-    list-style-type: none;
-    background: #fafafa;
-}
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }

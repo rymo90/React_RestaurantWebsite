@@ -10,6 +10,7 @@ class Footer extends React.Component {
 
     render() { 
         const style = {
+            
             width: '100%',
             height: '50%'
         }

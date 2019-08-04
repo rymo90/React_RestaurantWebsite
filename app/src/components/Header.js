@@ -1,19 +1,17 @@
 import React from 'react';
 import "./Header.css"
 class Header extends React.Component {
-    state = { name: "Amal" }
+    state = { name:"Header" }
     render() { 
         return ( <div className="Header">
-            <div className="left">Logo</div>
-            <div className="right">
 
-            <ul >
-            <li><a>Home</a></li>
-            <li><a>contact</a></li>
-            <li><a>aboutus</a></li>
-            </ul>
-            </div>
-          </div> );
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+        </div> );
     }
 }
  
